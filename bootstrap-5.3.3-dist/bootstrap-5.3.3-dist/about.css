@@ -1,0 +1,328 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.section-1 {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 70vh;
+    background: url(Pic10.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 1px solid black;
+}
+
+.section-1 .p-aboutus {
+    font-family: sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    color: white;
+    text-transform: capitalize;
+    text-align: center;
+    text-decoration: none;
+    padding-top: 180px;
+}
+
+.section-2 {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    height: 80vh;
+    margin-top: 450px;
+}
+
+.section-2 .portion-1 {
+    width: 450px;
+    height: 400px;
+}
+
+.section-2 .portion-1 .p-info {
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.section-2 .portion-1 .p-give {
+    font-family: sans-serif;
+    font-size: 35px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.section-2 .portion-1 .p-management {
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+
+.section-2 .portion-1 .awesome-part {
+    display: flex;
+    flex-direction: row;
+    gap: 70px;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    width: 400px;
+    height: 100px;
+}
+
+.section-2 .portion-1 .awesome-part .quality-part {
+    width: 190px;
+    height: 100px;
+}
+
+.section-2 .portion-1 .awesome-part .quality-part .icon-1 {
+    display: inline-block;
+    position: absolute;
+    width: 60px;
+    height: 90px;
+}
+
+.section-2 .portion-1 .awesome-part .quality-part .icon-1 .fa-user-nurse {
+    font-size: 35px;
+    margin: 5px 0px 0px 1px;
+    color: rgb(238, 74, 14);
+}
+
+.section-2 .portion-1 .awesome-part .quality-part .wr-1 {
+    width: 150px;
+    height: 90px;
+    margin-left: 50px;
+}
+
+.section-2 .portion-1 .awesome-part .quality-part .wr-1 .p-matter {
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.section-2 .portion-1 .awesome-part .quality-part .wr-1 .p-week {
+    font-family: sans-serif;
+    font-size: 14px;
+    margin-top: -10px;
+    text-align: center;
+}
+
+.section-2 .portion-1 .awesome-part .metropolitan-part {
+    width: 190px;
+    height: 100px;
+}
+
+.section-2 .portion-1 .awesome-part .metropolitan-part .icon-2 {
+    display: inline-block;
+    position: absolute;
+    width: 60px;
+    height: 90px;
+}
+
+.section-2 .portion-1 .awesome-part .metropolitan-part .icon-2 .fa-globe {
+    font-size: 35px;
+    margin: 5px 0px 0px 1px;
+    color: rgb(238, 74, 14);
+}
+
+.section-2 .portion-1 .awesome-part .metropolitan-part .wr-2 {
+    width: 140px;
+    height: 90px;
+    margin-left: 50px;
+}
+
+.section-2 .portion-1 .awesome-part .metropolitan-part .wr-2 .p-world {
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.section-2 .portion-1 .awesome-part .metropolitan-part .wr-2 .p-area {
+    font-family: sans-serif;
+    font-size: 14px;
+    margin-top: -10px;
+    text-align: center;
+}
+
+.section-2 .portion-2 {
+    width: 400px;
+    height: 400px;
+    background: url(Pic3.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.section-2 .portion-2 .box {
+    width: 150px;
+    height: 100px;
+    border-radius: 7px;
+    box-shadow: 3px 3px 3px 3px rgb(238, 74, 14);
+    margin: 220px 0px 0px -50px;
+    background-color: rgb(238, 74, 14);
+}
+
+.section-2 .portion-2 .box .p-num {
+    font-family: sans-serif;
+    font-size: 35px;
+    font-weight: 600;
+    color: white;
+    padding-top: 15px;
+    text-align: center;
+}
+
+.section-2 .portion-2 .box .p-exp {
+    font-family: sans-serif;
+    font-size: 14px;
+    color: white;
+    margin-top: -20px;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.section-3 {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 30vh;
+    position: absolute;
+    margin-top: 950px;
+}
+
+.section-3 .div-1 {
+    width: 200px;
+    height: 120px;
+    cursor: pointer;
+}
+
+.section-3 .div-1 .p-1 {
+    font-family: sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    color: rgb(36, 35, 35);
+    margin-top: 25px;
+    text-align: center;
+}
+
+.section-3 .div-1 .p-2 {
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    color: rgb(238, 74, 14);
+    margin-top: -25px;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.section-3 .div-2 {
+    width: 200px;
+    height: 120px;
+    cursor: pointer;
+}
+
+.section-3 .div-2 .p-3 {
+    font-family: sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    color: rgb(36, 35, 35);
+    margin-top: 15px;
+    text-align: center;
+}
+
+.section-3 .div-2 .p-4 {
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    color: rgb(238, 74, 14);
+    margin-top: -55px;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.section-3 .div-3 {
+    width: 200px;
+    height: 120px;
+    cursor: pointer;
+}
+
+.section-3 .div-3 .p-5 {
+    font-family: sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    color: rgb(36, 35, 35);
+    margin-top: -15px;
+    text-align: center;
+}
+
+.section-3 .div-3 .p-6 {
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    color: rgb(238, 74, 14);
+    margin-top: -65px;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.section-3 .div-4 {
+    width: 200px;
+    height: 120px;
+    cursor: pointer;
+}
+
+.section-3 .div-4 .p-7 {
+    font-family: sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    color: rgb(36, 35, 35);
+    margin-top: 30px;
+    text-align: center;
+}
+
+.section-3 .div-4 .p-8 {
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    color: rgb(238, 74, 14);
+    margin-top: -15px;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.section-4 {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 90vh;
+    margin-top: 1150px;
+}
+
+.section-4 .p-who {
+    font-family: sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.section-4 .carousel-part {
+    width: 100%;
+    height: 80vh;
+}
+
+footer {
+    margin-top: 1750px;
+    background-color: rgb(91, 64, 54);
+}
