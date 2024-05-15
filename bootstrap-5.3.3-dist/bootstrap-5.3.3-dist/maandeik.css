@@ -111,7 +111,7 @@
         text-align: center;
     }
     
-    .section-3 .btn-see {
+    .section-3 a .btn-see {
         background-color: rgb(238, 74, 14);
         border: none;
         outline: none;
@@ -125,7 +125,7 @@
         cursor: pointer;
     }
     
-    .section-3 .btn-see:hover {
+    .section-3 a .btn-see:hover {
         background-color: white;
         border: 1px solid rgb(238, 74, 14);
         color: rgb(238, 74, 14);
@@ -526,4 +526,71 @@
     footer {
         margin-top: 1690px;
         background-color: rgb(91, 64, 54);
+    }
+    
+    @media screen and (max-width: 768px) and (min-width: 480px) {
+        .section-3 {
+            margin-top: 1100px;
+        }
+        .section-3 .p-got {
+            padding-top: 0px;
+        }
+        .section-3 .p-more {
+            padding-top: 0px;
+            visibility: none;
+            display: none;
+        }
+        .section-3 a .btn-see {
+            margin-left: 170px;
+            margin-top: 50px;
+        }
+        .section-4 {
+            display: none;
+            visibility: none;
+        }
+        .section-5 {
+            margin-top: 1400px;
+        }
+        .section-5 .above-part .top-images {
+            display: flex;
+            flex-direction: column;
+        }
+        .section-5 .below-part .bottom-images {
+            display: flex;
+            flex-direction: column;
+        }
+        .section-6 {
+            display: none;
+            visibility: hidden;
+        }
+        .section-7 {
+            margin-top: 2550px;
+        }
+        .section-7 .written-part .p-explanation {
+            display: none;
+            visibility: hidden;
+        }
+        .section-8 {
+            width: 400px;
+            margin-top: 3050px;
+            margin-left: 40px;
+        }
+        .section-8 .written-module .p-update {
+            padding-top: 0px;
+        }
+        .section-8 .written-module .p-today {
+            display: none;
+            visibility: none;
+        }
+        .section-8 .input-module .email-tap {
+            margin-left: -15px;
+            padding: 5px 18px 5px 18px;
+        }
+        .section-8 .input-module .btn-subscribe {
+            margin-top: 10px;
+            margin-left: 40px;
+        }
+        footer {
+            margin-top: 3150px;
+        }
     }
