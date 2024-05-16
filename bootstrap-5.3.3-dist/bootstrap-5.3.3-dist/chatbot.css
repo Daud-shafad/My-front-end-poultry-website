@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    background: url(Pic10.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.chat-container {
+    width: 600px;
+    height: 90vh;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.chat-box {
+    height: 80vh;
+    overflow-y: scroll;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    background: url(Chickens7.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#user-input {
+    width: calc(100% - 80px);
+    padding: 5px;
+    border: none;
+    outline: none;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 5px 10px;
+    background-color: rgb(238, 74, 14);
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #fdfdfe;
+    border: 2px solid rgb(238, 74, 14);
+    color: rgb(238, 74, 14);
+}

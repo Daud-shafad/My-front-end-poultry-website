@@ -48,7 +48,7 @@
         margin-left: 10px;
     }
     
-    .section-1 .info-card .btn-contact {
+    .section-1 .info-card a .btn-contact {
         background-color: rgb(238, 74, 14);
         border: none;
         outline: none;
@@ -63,7 +63,7 @@
         cursor: pointer;
     }
     
-    .section-1 .info-card .btn-contact:hover {
+    .section-1 .info-card a .btn-contact:hover {
         background-color: white;
         border: 1px solid rgb(238, 74, 14);
         color: rgb(238, 74, 14);
